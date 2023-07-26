@@ -14,9 +14,6 @@ function App() {
       return setData(res.data)
    });
 
-   
-   
-
   },[]);
 
   return (
@@ -31,6 +28,7 @@ function App() {
           )
         }
        </ul>
+       <div></div>
     </div>
   );
 }
